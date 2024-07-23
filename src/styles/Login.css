@@ -1,0 +1,37 @@
+/* Login.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for card-like effect */
+  border-radius: 0.5rem;
+  padding: 2rem; /* Increase padding for better spacing */
+  background-color: #ffffff; /* Set background color */
+}
+
+.input-field {
+  width: 300px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.login-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #61dafb;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #21a1f1;
+}

@@ -1,0 +1,14 @@
+/* index.css */
+
+/* Import the font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the font family to the entire body */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  box-sizing: border-box; /* Set box-sizing to border-box for consistent sizing */
+}
+
+/* You can also add global styles for other elements here */
